@@ -1,0 +1,178 @@
+/* Common CSS */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Banner */
+.top-banner {
+    background: #2D25A0;
+    padding: 10px 0 80px 0;
+}
+.banner-wrapper{
+
+}
+nav{
+padding: 25px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+span{
+    display: flex;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 15px 25px;
+display: inline-block;
+transition: 0.5s;
+}
+nav ul li:hover a{
+    background: #E02C6D;
+}
+.login li a {
+    background: #E02C6D;
+    padding: 15px 25px;
+    margin-right: 65px;
+}
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.pinkBtn {
+    text-decoration: none;
+    background: #e02c6d;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.banner-half-width{
+    width: 40%;
+}
+.banner-half-width h1{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.banner-half-width img{
+    width: 70%;
+    transition: 1s;
+
+}
+.banner-half-width:hover img{
+    transform: scale(1.2);
+}
+
+/* Players Section */
+.players{
+padding: 50px 0;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+
+}
+.players-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.thumbnail{
+    text-align: center;
+}
+.thumbnail img{
+    width: 95%;
+    margin-top: 10px;
+}
+.data {
+    margin: 0 20px;
+}
+.data h2{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #18191F;
+}
+.data p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+/* Highlight Section */
+.highlight{
+    padding: 80px 0;
+}
+.highlight-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlight-half-width h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.highlight-half-width p{
+    color: #6C6C6C;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.hightlight-thumb{
+    text-align: right;
+}
+.highlight-half-width img{
+    width: 85%;
+}
+
+/* Footer */
+footer{
+    padding: 50px 0;
+}
+.footerThumb{
+text-align: center;
+}
+.footerThumb img{
+    width: 25%;
+}
+.social{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.social li a {
+    padding: 0;
+    margin: 0 10px;
+}
+.social li a i {
+    color: #969bab;
+    background: #6c707c6b;
+    padding: 10px;
+    border-radius: 50%;
+}
+.copyright{
+    text-align: center;
+}
