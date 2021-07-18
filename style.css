@@ -101,10 +101,16 @@ padding: 50px 0;
 }
 .thumbnail{
     text-align: center;
+    overflow: hidden;
+    margin: 10px;
 }
 .thumbnail img{
-    width: 95%;
-    margin-top: 10px;
+    width: 100%;
+    transition: 1s;
+    
+}
+.player:hover img{
+    transform: scale(1.1);
 }
 .data {
     margin: 0 20px;
